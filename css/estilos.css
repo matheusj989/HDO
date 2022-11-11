@@ -1,0 +1,153 @@
+/* MENU */
+
+*{margin: 0; padding: 0;}
+
+nav{
+	width: 600px;
+	height: 54px;
+	color: #ff0000;
+	background-color: #ff0000;
+	border-radius: 8px; 
+	margin: 0 auto;
+	position: absolute;
+	left: 370px;
+	margin-top: 290px;
+}
+
+nav ul{
+	width: 496px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+}
+
+nav ul li{
+	float: left;
+	display: block;
+	position: relative;
+}
+
+nav ul li a{
+	float: left;
+	font-family: "Century Gothic", arial;
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px 15px;
+	border-right: 1px solid #ffffff;
+
+}
+
+nav ul li a:hover{
+	background-color: #ffffff;
+	color: #ff0000;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s; transition:0.5s;
+	transition: 0.5s;
+
+}
+
+nav ul ul{
+	display: none;
+	position: absolute;
+	width: 160px;
+	height: auto;
+	background-color: #ff0000;
+	border-radius: 4px;
+	border: solid #ff0000;
+	border-color: #ff0000;
+}
+
+nav ul li:hover ul{
+
+	display: block;
+	position: absolute;
+	top: 53px;
+}
+nav ul li:hover ul li a{
+	border: none;
+	width: 130px;
+	border-bottom: 1px solid #ffffff; 
+}
+/* */
+#imgprincipal{
+	left: 340px;
+	position: absolute;
+
+}
+#texto1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #000000;
+	position: absolute;
+	margin-top: 450px;
+	text-decoration: blink;
+	font-size: 30px;
+	left: 26%;
+}
+#imgbar{
+	position: absolute;
+	margin-top: 500px;
+	left: 30%;
+	border-radius: 10px;
+	border-color: #ffffff;
+}
+#textop{
+	position: absolute;
+	color: #000000;
+	font-size: 17px;
+	left: 30%;
+	margin-top: 950px;
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+}
+#textop2{
+	position: absolute;
+	color: #000000;
+	font-size: 17px;
+	left: 25%;
+	margin-top: 950px;
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+}
+#link1{
+	position: absolute;
+	color: #ff0000;
+	font-size: 17px;
+	left: 33%;
+	margin-top: 1040px;
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	text-decoration: none;
+}
+#linha{
+	border:2px solid #000000; 
+	background-color: #000000; 
+}
+#linha1{
+	position: absolute;
+	left: 383px;
+	margin-top: 930px;
+}
+#linha2{
+	position: absolute;
+	left: 383px;
+	margin-top: 1030px;
+}
+#dividirfundo{
+	background-color: #800000;
+	width: 200px;
+	height: 180%;
+	position: absolute;
+}
+#dividirfundo2{
+	background-color: #800000;
+	width: 200px;
+	height: 180%;
+	position: absolute;
+	right: -1px;
+}
+body{
+	overflow-x: hidden;
+}
